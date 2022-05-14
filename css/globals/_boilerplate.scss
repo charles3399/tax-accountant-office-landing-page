@@ -1,0 +1,18 @@
+@import url('https://bigfontsite.com/fonts/hirakakupro-w6-opentype.html');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #231815;
+    font-family: "HiraKakuPro W6 OpenType", sans-serif;
+}
