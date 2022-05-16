@@ -87,7 +87,6 @@ header {
 header > div:nth-child(2) {
   margin: 20px 0 0;
 }
-
 header div:nth-child(3) {
   text-align: right;
 }
