@@ -1,5 +1,5 @@
 @forward 'globals';
-@use './util/colors' as color;
+@use 'util' as color;
 
 $auto-centered: 0 auto;
 

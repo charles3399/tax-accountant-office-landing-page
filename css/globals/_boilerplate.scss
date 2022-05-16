@@ -1,3 +1,4 @@
+@use '../util' as color;
 @import url('https://bigfontsite.com/fonts/hirakakupro-w6-opentype.html');
 
 html {
@@ -13,6 +14,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    color: #231815;
+    color: color.$default-text-color;
     font-family: "HiraKakuPro W6 OpenType", sans-serif;
 }
