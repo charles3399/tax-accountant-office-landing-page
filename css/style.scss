@@ -295,11 +295,12 @@ footer {
 }
 
 /* Media queries */
-@media (max-width: 1120px) {
+//em are divided by 16 on pixels e.g: 1120px % 16 = 70em
+@media (max-width: 70em) {
     #grid p { font-size: 14px; }
 }
 
-@media (max-width: 1018px) {
+@media (max-width: 63.625em) {
     header { padding: 20px; }
 
     #hamburger-icon {
@@ -327,7 +328,7 @@ footer {
     .news-content p:last-child { margin-left: 0; }
 }
 
-@media (max-width: 965px) {
+@media (max-width: 60.3125em) {
     #section-one { padding: 10px 22px 20px; }
 
     #boxes {
@@ -347,11 +348,11 @@ footer {
     #section-three { padding: 10px 19px; }
 }
 
-@media (max-width: 934px) {
+@media (max-width: 58.375em) {
     #section-four { padding: 10px 22px; }
 }
 
-@media (max-width: 887px) {
+@media (max-width: 55.4375em) {
     footer {
         background: #e6ebee;
         text-align: center;
@@ -384,7 +385,7 @@ footer {
     }
 }
 
-@media (max-width: 777px) {
+@media (max-width: 48.5625em) {
     #section-one h3,
     #section-four h3 {
         text-align: left;
@@ -417,7 +418,7 @@ footer {
     }
 }
 
-@media (max-width: 645px) {
+@media (max-width: 40.3125em) {
     #section-four .yellow-link {
         font-size: 20px;
         margin: 57px 0;
@@ -425,7 +426,7 @@ footer {
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 35.625em) {
     #grid { grid-template-columns: repeat(1, 1fr); }
 
     .button-gray { text-align: center; }
@@ -440,10 +441,10 @@ footer {
     #last-news { margin-bottom: 0; }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 28.75em) {
     #section-four .yellow-link { padding: 32px 50px 24px; }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 24.375em) {
     #section-four .yellow-link { padding: 32px 50px 24px; }
 }
