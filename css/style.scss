@@ -1,17 +1,17 @@
 @forward 'globals';
-@use './util/colors';
+@use './util/colors' as color;
 
 $auto-centered: 0 auto;
 
 @mixin yellow-link {
     display: inline-block;
-    background-color: colors.$yellow-link-color;
-    color: colors.$white-text-color;
+    background-color: color.$yellow-link-color;
+    color: color.$white-text-color;
 }
 
 nav {
     display: none;
-    background: colors.$mobile-menu-bg-color;
+    background: color.$mobile-menu-bg-color;
     padding: 30px 22px 28px;
     position: fixed;
     top: 0;
@@ -33,13 +33,13 @@ nav {
 
     li {
         list-style: none;
-        background: colors.$mobile-menu-link-color;
+        background: color.$mobile-menu-link-color;
         margin: 5px 0;
         padding: 25px 0 25px 28px;
     }
 
     a {
-        color: colors.$white-text-color;
+        color: color.$white-text-color;
         font-size: 20px;
         line-height: 1.4;
     }
@@ -49,7 +49,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 100px 0;
-    border-bottom: 3px solid colors.$border-blue-color;
+    border-bottom: 3px solid color.$border-blue-color;
 }
 
 #hamburger-icon { display: none; }
@@ -87,14 +87,14 @@ header {
     }
 
     li:hover {
-        background: colors.$border-blue-color;
+        background: color.$border-blue-color;
         transition: .2s ease-in;
-        color: colors.$white-text-color;
+        color: color.$white-text-color;
     }
 
-    li a { color: colors.$default-text-color; }
+    li a { color: color.$default-text-color; }
 
-    li:hover a { color: colors.$white-text-color; }
+    li:hover a { color: color.$white-text-color; }
 
 }
 
@@ -125,7 +125,7 @@ header {
     margin: 0;
     padding: 44px 0;
     width: 350px;
-    color: colors.$white-text-color;
+    color: color.$white-text-color;
 }
 
 .box img { display: block; }
@@ -178,8 +178,8 @@ header {
     margin-left: auto;
     font-size: 20px;
     margin: 94px 0 0;
-    background: colors.$gray-button-color;
-    color: colors.$white-text-color;
+    background: color.$gray-button-color;
+    color: color.$white-text-color;
     padding: 5px 50px;
 } 
 
@@ -370,9 +370,9 @@ footer {
 
          li {
             display: block;
-            background: colors.$border-blue-color;
+            background: color.$border-blue-color;
             border-bottom: 1px solid #a0a0a0;
-            color: colors.$white-text-color;
+            color: color.$white-text-color;
             margin: 0;
             padding: 20px 0 20px 20px;
         }
